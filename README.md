@@ -1,1 +1,4 @@
-The idea of the project is to create a good platform to listen kazakh music. The main aim is to popularize kazakh culture. I guess it is very relevant, just because we have many good artists in our country, the quality of the music is growing very high. Early, listening to kazakh music was not cool for our people, especially in the young generation. But nowadays, many things have changed, we have a large number of excellent artists on the territory of Kazakhstan, and we must support them. Mobile app can change many things, with recommendation systems, good databases and wonderful design, popularization of the kazakh music will grow, I guess 
+Link to database: https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=data.csv
+
+in our project we use 5 tables: users, music, manage_users, top_music, users_music
+manage_users table will store data about actions of our users: log in, log out, adding songs in playlist and etc. other tables are clear.
