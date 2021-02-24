@@ -1,3 +1,5 @@
+Link to database: https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks?select=data.csv
+
 Our data:
 
 Primary:
@@ -23,3 +25,5 @@ Categorical:
 - artists (List of artists mentioned)
 - release_date (Date of release mostly in yyyy-mm-dd format, however precision of date may vary)
 - name (Name of the song)
+
+Link to database: 
