@@ -1,0 +1,6 @@
+framework module Pods_AuenCloud {
+  umbrella header "Pods-AuenCloud-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "130713467-line-art-music-note-icon-black-doodle-musical-signs-signature-note-symbol-for-web-site-design-and-mo.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
