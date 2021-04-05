@@ -38,3 +38,5 @@ and in users_music table we can have diffirent combinations of id's, many user c
 relation between users and manage users is many to many, because to manage many user you should have many actions.
 top_music contains information from music so it can be 0 or more, but ot relation many to many, because we give from all music some number of them
 
+ABOUT LOAD DATA!!!
+we use loading data only in music database and we use SQLdeveloper for this so we didn't use scripts, just sqldevelopers given functionality
