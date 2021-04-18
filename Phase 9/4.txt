@@ -12,3 +12,5 @@ duration 1 - 6 ms
 duration 1 - 3 ms
 
 duration average - 4.4 ms
+
+here we didn't see the changes, approximately it takes the same time
