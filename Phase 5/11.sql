@@ -1,4 +1,1 @@
-create table users_music(
-users_id number(10),
-music_id number(10)
-);
+select artist, count(*) from music group by artist order by artist;
