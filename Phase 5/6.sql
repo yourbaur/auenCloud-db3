@@ -1,5 +1,5 @@
-select u.name, m.name, m.album, m.artist 
+select u.f_name, m.name, m.artist 
 from users_music um 
 join music m on um.music_id = m.id
-join users u on u.id = um.user_id
-where um.user_id = 3;
+join users u on u.id = um.users_id
+where um.users_id = 21;
