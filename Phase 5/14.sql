@@ -1,6 +1,1 @@
-create table manage_users(
-id number(10),
-o_username varchar2(50),
-n_username varchar2(50),
-l_in_playlist date 
-);
+select m1.name from music m1 where m1.year = (select m2.album from music m2 where m2.name = '5000'  and m2.artist='IK')
