@@ -1,0 +1,10 @@
+select count(*) as years,year from music group by year order by year;
+
+executions:
+duration 1 - 9 ms
+duration 1 - 8 ms
+duration 1 - 7 ms
+duration 1 - 10 ms
+duration 1 - 9 ms
+
+duration average - 8.6 ms

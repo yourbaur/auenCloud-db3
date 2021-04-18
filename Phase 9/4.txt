@@ -1,0 +1,14 @@
+select u.f_name, m.name, m.artist 
+from users_music um 
+join music m on um.music_id = m.id
+join users u on u.id = um.users_id
+where um.users_id = 21;
+
+executions:
+duration 1 - 5 ms
+duration 1 - 4 ms
+duration 1 - 4 ms
+duration 1 - 6 ms
+duration 1 - 3 ms
+
+duration average - 4.4 ms

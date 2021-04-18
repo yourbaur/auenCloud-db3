@@ -1,0 +1,10 @@
+select name, artist from music where year between 1919 and 1925;
+
+executions:
+duration 1 - 29 ms
+duration 1 - 25 ms
+duration 1 - 23 ms
+duration 1 - 25 ms
+duration 1 - 24 ms
+
+duration average - 25.2 ms

@@ -1,0 +1,10 @@
+select m1.name from music m1 where m1.year in (select m2.year from music m2 where m2.name = 'Oli mera paizei zaria'  and m2.artist='Giorgos Katsaros');
+
+executions:
+duration 1 - 9 ms
+duration 1 - 5 ms
+duration 1 - 7 ms
+duration 1 - 6 ms
+duration 1 - 6 ms
+
+duration average - 6.6 ms
