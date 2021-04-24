@@ -14,7 +14,7 @@ duration 1 - 35 ms
 
 duration average - 38.2 ms
 
-this is a good query and we can estimate ot by doing right join:
+actually this query is not complex enough to have a big diffirence in eqecution time, but when you run query first time, it calculate it longer, so our result is here: 
 
 select to_char(m.id) as id, to_char(year) as year, name, artist, to_char(popularity) popularity, 
 (CASE WHEN tp.id is null THEN 0 ELSE 1 END) as added 
